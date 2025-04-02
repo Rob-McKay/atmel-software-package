@@ -47,6 +47,10 @@ gnu-linker-script-$(CONFIG_SOC_SAM9X60) = $(TOP)/samba_applets/common/sam9x60/sr
 gnu-debug-script-$(CONFIG_SOC_SAM9X60) = $(TOP)/samba_applets/common/sam9x60/sram.gdb
 iar-linker-script-$(CONFIG_SOC_SAM9X60) = $(TOP)/samba_applets/common/sam9x60/sram.icf
 
+gnu-linker-script-$(CONFIG_SOC_SAM9X7) = $(TOP)/samba_applets/common/sam9x7/sram.ld
+gnu-debug-script-$(CONFIG_SOC_SAM9X7) = $(TOP)/samba_applets/common/sam9x7/sram.gdb
+iar-linker-script-$(CONFIG_SOC_SAM9X7) = $(TOP)/samba_applets/common/sam9x7/sram.icf
+
 gnu-linker-script-$(CONFIG_SOC_SAMA5D2) = $(TOP)/samba_applets/common/sama5d2/sram.ld
 gnu-debug-script-$(CONFIG_SOC_SAMA5D2) = $(TOP)/samba_applets/common/sama5d2/sram.gdb
 iar-linker-script-$(CONFIG_SOC_SAMA5D2) = $(TOP)/samba_applets/common/sama5d2/sram.icf
@@ -72,6 +76,10 @@ iar-linker-script-$(CONFIG_SOC_SAM9XX5) = $(TOP)/samba_applets/common/sam9xx5/dd
 gnu-linker-script-$(CONFIG_SOC_SAM9X60) = $(TOP)/samba_applets/common/sam9x60/ddram.ld
 gnu-debug-script-$(CONFIG_SOC_SAM9X60) = $(TOP)/samba_applets/common/sam9x60/ddram.gdb
 iar-linker-script-$(CONFIG_SOC_SAM9X60) = $(TOP)/samba_applets/common/sam9x60/ddram.icf
+
+gnu-linker-script-$(CONFIG_SOC_SAM9X7) = $(TOP)/samba_applets/common/sam9x7/ddram.ld
+gnu-debug-script-$(CONFIG_SOC_SAM9X7) = $(TOP)/samba_applets/common/sam9x7/ddram.gdb
+iar-linker-script-$(CONFIG_SOC_SAM9X7) = $(TOP)/samba_applets/common/sam9x7/ddram.icf
 
 gnu-linker-script-$(CONFIG_SOC_SAMA5D2) = $(TOP)/samba_applets/common/sama5d2/ddram.ld
 gnu-debug-script-$(CONFIG_SOC_SAMA5D2) = $(TOP)/samba_applets/common/sama5d2/ddram.gdb

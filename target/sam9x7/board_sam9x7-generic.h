@@ -1,23 +1,23 @@
 /**
- * \page sam9x60_generic_board_desc sam9x60-generic - Board Description
+ * \page sam9x7_generic_board_desc sam9x7-generic - Board Description
  *
  * \section Purpose
  *
- * This file is dedicated to describe a generic sam9x60 board.
+ * This file is dedicated to describe a generic sam9x7 board.
  *
  * \section Contents
  *
- *  - sam9x60-generic
- *  - For sam9x60-generic information, see \subpage sam9x60_generic_board_info.
- *  - For operating frequency information, see \subpage sam9x60_generic_opfreq.
- *  - For using portable PIO definitions, see \subpage sam9x60_generic_piodef.
- *  - For on-board memories, see \subpage sam9x60_generic_mem.
- *  - Several USB definitions are included here, see \subpage sam9x60_generic_usb.
- *  - For External components, see \subpage sam9x60_generic_extcomp.
- *  - For Individual chip definition, see \subpage sam9x60_generic_chipdef.
+ *  - sam9x7-generic
+ *  - For sam9x7-generic information, see \subpage sam9x7_generic_board_info.
+ *  - For operating frequency information, see \subpage sam9x7_generic_opfreq.
+ *  - For using portable PIO definitions, see \subpage sam9x7_generic_piodef.
+ *  - For on-board memories, see \subpage sam9x7_generic_mem.
+ *  - Several USB definitions are included here, see \subpage sam9x7_generic_usb.
+ *  - For External components, see \subpage sam9x7_generic_extcomp.
+ *  - For Individual chip definition, see \subpage sam9x7_generic_chipdef.
  *
  * To get more software details and the full list of parameters related to the
- * sam9x60-generic board configuration, please have a look at the source file:
+ * sam9x7-generic board configuration, please have a look at the source file:
  * \ref board.h\n
  *
  * \section Usage
@@ -35,12 +35,12 @@
 /**
  *  \file board.h
  *
- *  Definition of sam9x60-generic
+ *  Definition of sam9x7-generic
  *  characteristics, chip-dependent PIOs and external components interfacing.
  */
 
-#ifndef BOARD_SAM9X60_GENERIC_H_
-#define BOARD_SAM9X60_GENERIC_H_
+#ifndef BOARD_SAM9X7_GENERIC_H_
+#define BOARD_SAM9X7_GENERIC_H_
 
 /*----------------------------------------------------------------------------
  *        Headers
@@ -55,7 +55,7 @@
  *----------------------------------------------------------------------------*/
 
 /**
- * \page sam9x60_generic_board_info "sam9x60-generic - Board informations"
+ * \page sam9x7_generic_board_info "sam9x7-generic - Board informations"
  * This page lists several definition related to the board description.
  *
  * \section Definitions
@@ -63,7 +63,7 @@
  */
 
 /** Name of the board */
-#define BOARD_NAME "sam9x60-generic"
+#define BOARD_NAME "sam9x7-generic"
 
 /*----------------------------------------------------------------------------*/
 
@@ -74,4 +74,4 @@
 #define BOARD_TIMER_TC      TC1
 #define BOARD_TIMER_CHANNEL 0
 
-#endif /* BOARD_SAM9XX5_GENERIC_H */
+#endif /* BOARD_SAM9X7_GENERIC_H */

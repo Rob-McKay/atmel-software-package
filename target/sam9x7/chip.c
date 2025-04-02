@@ -127,8 +127,8 @@ static const struct peripheral_xdma *get_peripheral_xdma(uint32_t id, Xdmac *xdm
 const char* get_chip_name(void)
 {
 	if ((DBGU->DBGU_CIDR & ~DBGU_CIDR_VERSION_Msk) ==
-			CHIPID_CIDR_SAM9X60) {
-		return "SAM9X60";
+			(CHIPID_CIDR_SAM9X75 & ~DBGU_CIDR_VERSION_Msk)) {
+		return "sam9x7";
 	}
 
 	return "Unknown";

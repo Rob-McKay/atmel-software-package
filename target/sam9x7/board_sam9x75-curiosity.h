@@ -1,23 +1,23 @@
 /**
- * \page sam9x60_curiosity_board_desc sam9x60-curiosity - Board Description
+ * \page sam9x7_curiosity_board_desc sam9x7-curiosity - Board Description
  *
  * \section Purpose
  *
- * This file is dedicated to describe a sam9x60 curiosity board.
+ * This file is dedicated to describe a sam9x7 curiosity board.
  *
  * \section Contents
  *
- *  - sam9x60-curiosity
- *  - For sam9x60-curiosity information, see \subpage sam9x60_curiosity_board_info.
- *  - For operating frequency information, see \subpage sam9x60_curiosity_opfreq.
- *  - For using portable PIO definitions, see \subpage sam9x60_curiosity_piodef.
- *  - For on-board memories, see \subpage sam9x60_curiosity_mem.
- *  - Several USB definitions are included here, see \subpage sam9x60_curiosity_usb.
- *  - For External components, see \subpage sam9x60_curiosity_extcomp.
- *  - For Individual chip definition, see \subpage sam9x60_curiosity_chipdef.
+ *  - sam9x7-curiosity
+ *  - For sam9x7-curiosity information, see \subpage sam9x7_curiosity_board_info.
+ *  - For operating frequency information, see \subpage sam9x7_curiosity_opfreq.
+ *  - For using portable PIO definitions, see \subpage sam9x7_curiosity_piodef.
+ *  - For on-board memories, see \subpage sam9x7_curiosity_mem.
+ *  - Several USB definitions are included here, see \subpage sam9x7_curiosity_usb.
+ *  - For External components, see \subpage sam9x7_curiosity_extcomp.
+ *  - For Individual chip definition, see \subpage sam9x7_curiosity_chipdef.
  *
  * To get more software details and the full list of parameters related to the
- * sam9x60-curiosity board configuration, please have a look at the source file:
+ * sam9x7-curiosity board configuration, please have a look at the source file:
  * \ref board.h\n
  *
  * \section Usage
@@ -35,7 +35,7 @@
 /**
  *  \file board.h
  *
- *  Definition of sam9x60-curiosity
+ *  Definition of sam9x7-curiosity
  *  characteristics, chip-dependent PIOs and external components interfacing.
  */
 
@@ -56,7 +56,7 @@
  *----------------------------------------------------------------------------*/
 
 /**
- * \page sam9x60_curiosity_board_info "sam9x60-curiosity - Board informations"
+ * \page sam9x7_curiosity_board_info "sam9x7-curiosity - Board informations"
  * This page lists several definition related to the board description.
  *
  * \section Definitions
@@ -64,7 +64,7 @@
  */
 
 /** Name of the board */
-#define BOARD_NAME "sam9x60-curiosity"
+#define BOARD_NAME "sam9x7-curiosity"
 
 /*----------------------------------------------------------------------------*/
 

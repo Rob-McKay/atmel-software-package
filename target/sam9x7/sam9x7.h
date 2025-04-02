@@ -83,7 +83,7 @@ typedef enum IRQn
   GMAC_IRQn            = 24, /**< 24 Gigabit Ethernet MAC (GMAC) */
   LCDC_IRQn            = 25, /**< 25 LCD Controller (LCDC) */
   SDMMC1_IRQn          = 26, /**< 26 Secure Data Memory Card Controller 1 - There is a divider by two and we need 52MHz on the I/F clock. Miniminum requirement is 104MHz. (SDMMC1) */
-  RESERVED1_IRQn       = 27, /**< 27 Reserved */
+  RESERVED_27_IRQn     = 27, /**< 27 Reserved */
   SSC_IRQn             = 28, /**< 28 Synchronous Serial Controller (SSC) */
   MCAN0_INT0_IRQn      = 29, /**< 29 MCAN controller 0 (CAN0) */
   MCAN1_INT0_IRQn      = 30, /**< 30 MCAN controller 1 (CAN1) */
@@ -107,25 +107,25 @@ typedef enum IRQn
   PMECC_IRQn           = 48, /**< 48 logical-OR interrupt of PMECC and PMERRLOC (PMECC) */
   MPDDRC_IRQn          = 49, /**< 49 logical-OR interrupt of MPDDRC and SMC (MPDDRC) */
   UTMI_IRQn            = 50, /**< 50 UTMI (UTMI) */
-  RESERVED2_IRQn       = 51, /**< 51 Reserved */
-  CSI2DC_IRQn          = 52 /**< 52 CSI to Demultiplexer Controller (CSI2DC) */
-  CSI4L_IRQn           = 53 /**< 53 Camera Serial Interface 2 4-Lanes (CSI4L) */
-  DSI4L_IRQn           = 54 /**< 54 Display Serial Interface 4-Lanes (DSI4L) */
-  MIPIPHY_IRQn         = 55 /**< 55 MIPI DPHY interface (MIPIPHY) */
-  LVDSC_IRQn           = 56 /**< 56 Display Serial Interface between XLCDC and LVDS interface (LVDSC) */
-  LVDSPHY_IRQn         = 57 /**< 57 LVDS PHY (LVDSPHY) */
-  PIT64B1_IRQn         = 58 /**< 58 64-b Timer 1 (PIT64B1) */
-  PUF_IRQn             = 59 /**< 59 HW PUF QuiddiKey IP (PUF) */
-  GMAC_Q1_IRQn         = 60 /**< 60 GMAC Queue 1 Interrupt signal toggled on a DMA write to the first word of each DMA data buffer associated with queue 1 (GMAC_Q1) */
-  GMAC_Q2_IRQn         = 61 /**< 61 GMAC Queue 2 Interrupt signal toggled on a DMA write to the first word of each DMA data buffer associated with queue 2 (GMAC_Q2) */
-  GMAC_Q3_IRQn         = 62 /**< 62 GMAC Queue 3 Interrupt signal toggled on a DMA write to the first word of each DMA data buffer associated with queue 3 (GMAC_Q3) */
-  GMAC_Q4_IRQn         = 63 /**< 63 GMAC Queue 4 Interrupt signal toggled on a DMA write to the first word of each DMA data buffer associated with queue 4 (GMAC_Q4) */
-  GMAC_Q5_IRQn         = 64 /**< 64 GMAC Queue 5 Interrupt signal toggled on a DMA write to the first word of each DMA data buffer associated with queue 5 (GMAC_Q5) */
-  GMAC_EMAC_IRQn       = 65 /**< 65 Gigabit Ethernet MAC - Express MAC (GMAC_EMAC) */
-  GMAC_MMSL_IRQn       = 66 /**< 66 Gigabit Ethernet MAC - Mac Merge SubLayer (GMAC_MMSL) */
-  GMAC_TSU_IRQn        = 67 /**< 67 Gigabit Ethernet MAC - Time Stamp Unit (GMAC_TSU) */
-  MCAN0_INT1_IRQn      = 68 /**< 68 Master CAN 0 interrupt 1 (MCAN0_INT1) */
-  MCAN1_INT1_IRQn      = 69 /**< 69 Master CAN 1 interrupt 1 (MCAN1_INT1) */
+  RESERVED51_IRQn      = 51, /**< 51 Reserved */
+  CSI2DC_IRQn          = 52, /**< 52 CSI to Demultiplexer Controller (CSI2DC) */
+  CSI4L_IRQn           = 53, /**< 53 Camera Serial Interface 2 4-Lanes (CSI4L) */
+  DSI4L_IRQn           = 54, /**< 54 Display Serial Interface 4-Lanes (DSI4L) */
+  MIPIPHY_IRQn         = 55, /**< 55 MIPI DPHY interface (MIPIPHY) */
+  LVDSC_IRQn           = 56, /**< 56 Display Serial Interface between XLCDC and LVDS interface (LVDSC) */
+  LVDSPHY_IRQn         = 57, /**< 57 LVDS PHY (LVDSPHY) */
+  PIT64B1_IRQn         = 58, /**< 58 64-b Timer 1 (PIT64B1) */
+  PUF_IRQn             = 59, /**< 59 HW PUF QuiddiKey IP (PUF) */
+  GMAC_Q1_IRQn         = 60, /**< 60 GMAC Queue 1 Interrupt signal toggled on a DMA write to the first word of each DMA data buffer associated with queue 1 (GMAC_Q1) */
+  GMAC_Q2_IRQn         = 61, /**< 61 GMAC Queue 2 Interrupt signal toggled on a DMA write to the first word of each DMA data buffer associated with queue 2 (GMAC_Q2) */
+  GMAC_Q3_IRQn         = 62, /**< 62 GMAC Queue 3 Interrupt signal toggled on a DMA write to the first word of each DMA data buffer associated with queue 3 (GMAC_Q3) */
+  GMAC_Q4_IRQn         = 63, /**< 63 GMAC Queue 4 Interrupt signal toggled on a DMA write to the first word of each DMA data buffer associated with queue 4 (GMAC_Q4) */
+  GMAC_Q5_IRQn         = 64, /**< 64 GMAC Queue 5 Interrupt signal toggled on a DMA write to the first word of each DMA data buffer associated with queue 5 (GMAC_Q5) */
+  GMAC_EMAC_IRQn       = 65, /**< 65 Gigabit Ethernet MAC - Express MAC (GMAC_EMAC) */
+  GMAC_MMSL_IRQn       = 66, /**< 66 Gigabit Ethernet MAC - Mac Merge SubLayer (GMAC_MMSL) */
+  GMAC_TSU_IRQn        = 67, /**< 67 Gigabit Ethernet MAC - Time Stamp Unit (GMAC_TSU) */
+  MCAN0_INT1_IRQn      = 68, /**< 68 Master CAN 0 interrupt 1 (MCAN0_INT1) */
+  MCAN1_INT1_IRQn      = 69, /**< 69 Master CAN 1 interrupt 1 (MCAN1_INT1) */
 
   PERIPH_COUNT_IRQn    = 70  /**< Number of peripheral IDs */
 } IRQn_Type;
@@ -220,8 +220,6 @@ typedef enum IRQn
 #include "instance/flexcom1.h"
 #include "instance/flexcom2.h"
 #include "instance/flexcom3.h"
-#include "instance/emac0.h"
-#include "instance/emac1.h"
 #include "instance/pwm.h"
 #include "instance/lcdc.h"
 #include "instance/udphs.h"

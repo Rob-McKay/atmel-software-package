@@ -53,11 +53,6 @@ bootstrap-linker-script-y ?= $(TOP)/target/sam9x7/toolchain/$(COMPILER)/sram.ld
 iar-linker-script-y ?= $(TOP)/target/sam9x7/toolchain/iar/ddram.icf
 iar-debug-script-y ?= $(TOP)/target/sam9x7/toolchain/iar/ddram.mac
 
-ifeq ($(CONFIG_HAVE_CLASSD),y)
-iar-flashloader-script-$(CONFIG_BOARD_sam9x7_EK) ?= $(TOP)/flash_loaders/sam9x7-generic/sam9x7-ek-mck196.608.board
-else
-iar-flashloader-script-$(CONFIG_BOARD_sam9x7_EK) ?= $(TOP)/flash_loaders/sam9x7-generic/sam9x7-ek.board
-endif
 iar-flashloader-script-$(CONFIG_BOARD_sam9x7_CURIOSITY) ?= $(TOP)/flash_loaders/sam9x7-generic/sam9x7-curiosity.board
 
 endif

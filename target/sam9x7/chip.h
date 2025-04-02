@@ -35,8 +35,8 @@
 
 #include "compiler.h"
 
-#if defined(CONFIG_CHIP_SAM9X60)
-  #include "sam9x60.h"
+#if defined(CONFIG_CHIP_SAM9X7)
+  #include "sam9x7.h"
 #else
   #error Library does not support the specified device.
 #endif
@@ -46,19 +46,19 @@
 struct _console_cfg;
 
 /* ************************************************************************** */
-/*   CHIPID DEFINITIONS FOR SAM9x60 */
+/*   CHIPID DEFINITIONS FOR SAM9x7 */
 /* ************************************************************************** */
-/** \addtogroup SAM9x60_chipid CHIPID Definitions */
+/** \addtogroup SAM9x7_chipid CHIPID Definitions */
 /*@{*/
 
-#define CHIPID_CIDR_SAM9X60     (0x819b35a0ul)
+#define CHIPID_CIDR_SAM9X75     (0x89750030ul)
 
 /*@}*/
 
 /* ************************************************************************** */
-/*   PMECC DEFINITIONS FOR SAM9x60 */
+/*   PMECC DEFINITIONS FOR SAM9x7 */
 /* ************************************************************************** */
-/** \addtogroup SAM9x60_pmecc PMECC Definitions */
+/** \addtogroup SAM9x7_pmecc PMECC Definitions */
 /*@{*/
 
 /** Address of Galois Field Table 512 mapping in ROM. */
@@ -80,7 +80,7 @@ struct _console_cfg;
 #define ID_TC4_EXT   50
 
 /* ************************************************************************** */
-/* INCLUDE FOR SAM9x60 */
+/* INCLUDE FOR SAM9x7 */
 /* ************************************************************************** */
 
 #include "chip_pins.h"

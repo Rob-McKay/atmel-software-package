@@ -1,6 +1,8 @@
 Microchip Software Package
 ----------------------------
 
+Added support for SAM9x7 series processors using SAM9x60 as a basis.
+
 ## Overview
 
 This softpack comes as an early delivery and all presented APIs are subject to

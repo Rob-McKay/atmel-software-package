@@ -18,6 +18,9 @@ The Atmel Softpack support multiple devices and multiple targets.
 * SAMA5D4 family (SAMA5D41, SAMA5D42, SAMA5D43, SAMA5D44)
 * SAMV71 family (SAME70, SAMS70, SAMV70, SAMV71)
 
+* SAM9X7 family (SAM9X7)
+
+
 ## Targets
 
 * SAM9xx5 EVALUATION KIT (sam9g15-ek, sam9g25-ek, sam9g35-ek, sam9x25-ek, sam9x35-ek)
@@ -32,6 +35,8 @@ The Atmel Softpack support multiple devices and multiple targets.
 * SAMA5D4 EVALUATION KIT (sama5d4-ek)
 * SAME70 XPLAINED (same70-xplained)
 * SAMV71 XPLAINED ULTRA (samv71-xplained)
+
+* SAM9X75 CURIOSITY (sam9x7-curiosity)
 
 # Example List
 

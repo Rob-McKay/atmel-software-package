@@ -33,6 +33,7 @@ target-y :=
 include $(TOP)/target/common/Makefile.inc
 include $(TOP)/target/sam9xx5/Makefile.inc
 include $(TOP)/target/sam9x60/Makefile.inc
+include $(TOP)/target/sam9x7/Makefile.inc
 include $(TOP)/target/sama5d2/Makefile.inc
 include $(TOP)/target/sama5d3/Makefile.inc
 include $(TOP)/target/sama5d4/Makefile.inc
